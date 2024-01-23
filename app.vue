@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header />
-    <router-view />
+    <DataEntryForms />
     <Footer />
   </div>
 </template>
@@ -9,13 +9,13 @@
 <script>
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
-import Page1 from '@/components/Page1.vue';
+import DataEntryForms from '@/components/DataEntryForms.vue';
 
 export default {
   components: {
     Header,
+    DataEntryForms,
     Footer,
-    Page1,
   },
 };
 </script>
