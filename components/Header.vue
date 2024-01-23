@@ -8,7 +8,7 @@
 export default {
   data() {
     return {
-      title: 'My Vue Website',
+      title: 'J.Michael, Daniel, Len & Kory',
     };
   },
 };
