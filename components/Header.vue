@@ -1,7 +1,7 @@
 <template>
   <header class="site-header">
     <div class="logo">
-      <img src="@/assets/logo.png" alt="https://www.logolynx.com/images/logolynx/4e/4eba2af24ec355c368f5c5523f06b64f.jpeg" />
+      <img src="" alt="" />
       <span>My Website</span>
     </div>
 
