@@ -6,10 +6,23 @@
     </div>
 
     <nav>
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
-      <router-link to="/contact">Contact</router-link>
-    </nav>
+      <router-link to="/">
+      <button>Home</button>
+    </router-link>
+    <router-link to="/about">
+      <button>About</button>
+    </router-link>
+    <router-link to="/contact">
+      <button>Contact</button>
+    </router-link>
+    <router-link to="/DataEntryForm">
+      <button>Data Entry</button>
+    </router-link>
+    <router-link to="/Logout">
+      <button>Log out</button>
+    </router-link>
+
+    </nav> 
 
     <div class="user-profile">
       <!-- Placeholder for user profile information or login/logout buttons -->
