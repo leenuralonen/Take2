@@ -1,28 +1,21 @@
 <template>
   <div id="app">
-    <Header />
-    <HomePage />
-    <DataEntryForms />
-    <Footer />
-    <SignupPage />
+    <homepage />
+    <dataentryforms />
+    <signuppage />
   
   </div>
 </template>
 
 <script>
-
-import Header from '@pages/Header.vue';
-import Footer from '@/Footer.vue';
-import DataEntryForms from '@/DataEntryForms.vue';
-import SignupPage from '@/SignupPage.vue'; 
-import HomePage from '@pages/homepage.vue';
+import dataentryforms from '';
+import signuppage from ''; 
+import homepage from '';
 export default {
   components: {
-    Header,
-    DataEntryForms,
-    Footer,
-    HomePage,
-    SignupPage, 
+    dataentryforms,
+    homepage,
+    signuppage, 
     
   },
 };

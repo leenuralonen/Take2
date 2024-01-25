@@ -6,22 +6,21 @@
     </div>
 
     <nav>
-      <router-link to="/">
-      <button>Home</button>
-    </router-link>
-    <router-link to="/about">
-      <button>About</button>
-    </router-link>
-    <router-link to="/contact">
-      <button>Contact</button>
-    </router-link>
-    <router-link to="/DataEntryForm">
-      <button>Data Entry</button>
-    </router-link>
-    <router-link to="/Logout">
-      <button>Log out</button>
-    </router-link>
-
+      <nuxt-link to="/">
+        <button>Home</button>
+      </nuxt-link>
+      <nuxt-link to="/about">
+        <button>About</button>
+      </nuxt-link>
+      <nuxt-link to="/contact">
+        <button>Contact</button>
+      </nuxt-link>
+      <nuxt-link to="/DataEntryForm">
+        <button>Data Entry</button>
+      </nuxt-link>
+      <nuxt-link to="/Logout">
+        <button>Log out</button>
+      </nuxt-link>
     </nav> 
 
     <div class="user-profile">
@@ -62,7 +61,7 @@ nav {
   display: flex;
 }
 
-nav router-link {
+nav nuxt-link {
   color: #fff;
   text-decoration: none;
   margin-right: 15px;

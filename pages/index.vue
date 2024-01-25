@@ -7,22 +7,17 @@ Vue.use(VueRouter);
 const routes = [
 
   {
-    path: '/',
+    path: '',
     name: 'HomePage',
     component: Homepage,
   },
   {
-    path: '/',
-    name: 'HomePage',
-    component: Homepage,
-  },
-  {
-    path: '/signup',
+    path: '',
     name: 'Sign Up',
     component: Signup,
   },
   {
-    path: '/data-entry',
+    path: '',
     name: 'Data Entry',
     component: DataEntry,
   }
