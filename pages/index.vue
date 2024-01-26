@@ -3,7 +3,8 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import dataentryform from '@/pages/dataentryform.vue'
 import signuppage from '@/pages/signuppage.vue'
-import homepage from './homepage.vue'
+import homepage from '@/pages/homepage.vue'
+import contact from './contact.vue';
 
 Vue.use(VueRouter);
 
@@ -11,7 +12,7 @@ const routes = [
 
   {
     path: '/',
-    name: 'HomePage',
+    name: 'homepage',
     component: homepage,
   },
   {
@@ -20,14 +21,21 @@ const routes = [
     component: signuppage,
   },
   {
-    path: '/data-entry',
+    path: '/dataentryform',
     name: 'Data Entry',
     component: dataentryform,
+  },
+
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: contact,
   }
+  
   
 ];
 
 const router1 = new VueRouter({
   routes,
 });
-</script>
+</script> 

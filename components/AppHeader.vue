@@ -7,6 +7,9 @@
 
     <nav>
       
+      <nuxt-link to="/homepage">
+        <button>Homepage</button>
+      </nuxt-link>
       <nuxt-link to="/about">
         <button>About</button>
       </nuxt-link>
@@ -16,7 +19,7 @@
       <nuxt-link to="/dataentryform">
         <button>Data Entry</button>
       </nuxt-link>
-      <nuxt-link to="">
+      <nuxt-link to="/dataentryform">
         <button>Log out</button>
       </nuxt-link>
     </nav> 
