@@ -1,10 +1,10 @@
 <script setup>
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import dataentryform from '@/pages/dataentryform.vue'
-import signuppage from '@/pages/signuppage.vue'
-import homepage from '@/pages/homepage.vue'
-import contact from './contact.vue';
+import dataentryform from '@/pages/dataentryform.vue';
+import signuppage from '@/pages/signuppage.vue';
+import homepage from '@/pages/homepage.vue';
+import contact from '@/pages/contact.vue';
 
 Vue.use(VueRouter);
 

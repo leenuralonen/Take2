@@ -16,7 +16,7 @@ import homepage from './pages/homepage.vue';
 import AppHeader from "./components/AppHeader.vue";
 import AppFooter from './components/AppFooter.vue';
 import about from '@/pages/about.vue';
-import index from '@/pages/index.vue'
+import index from '@/pages/index.vue';
 
 export default {
   components: {

@@ -25,18 +25,7 @@
 
       <button type="submit">Submit Contact Info</button>
     </form>
-
-    <!-- Login Credentials Form -->
-    <form @submit.prevent="submitLoginCredentialsForm">
-      <h3>Login Credentials</h3>
-      <label for="username">Username:</label>
-      <input type="text" id="username" v-model="loginCredentials.username" required />
-
-      <label for="password">Password:</label>
-      <input type="password" id="password" v-model="loginCredentials.password" required />
-
-      <button type="submit">Submit Login Credentials</button>
-    </form>
+    
   </div>
 </template>
 
