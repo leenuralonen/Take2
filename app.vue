@@ -1,29 +1,25 @@
 <template>
   <div id="app">
-    <AppFooter/>
-    <AppHeader/>
-    <homepage/>
-    <dataentryforms/>
-    <signuppage/>
-
-    
+    <AppHeader />
+    <dataentryform />
+    <AppFooter />
+    <contact />
   </div>
 </template>
 
 <script>
-import dataentryforms from './pages/dataentryforms.vue';
-import homepage from './pages/homepage.vue';
-import signuppage from './pages/signuppage.vue';
-
-
+import AppHeader from './components/AppHeader.vue';
+import AppFooter from './components/AppFooter.vue';
+import dataentryform from './pages/dataentryform.vue';
+import contact from './pages/contact.vue'
 
 export default {
   components: {
-   homepage,
-   dataentryforms,
-   signuppage,
-   
-}
+    AppHeader,
+    dataentryform,
+    AppFooter,
+    contact
+  },
 };
 </script>
 
@@ -32,6 +28,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px; /* Adjust as needed based on your header's height */
+  margin-top: 60px;
 }
 </style>

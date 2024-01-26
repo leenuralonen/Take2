@@ -6,16 +6,14 @@
     </div>
 
     <nav>
-      <nuxt-link to="/">
-        <button>Home</button>
-      </nuxt-link>
-      <nuxt-link to="">
+      
+      <nuxt-link to="/about">
         <button>About</button>
       </nuxt-link>
-      <nuxt-link to="">
+      <nuxt-link to="/contact">
         <button>Contact</button>
       </nuxt-link>
-      <nuxt-link to="">
+      <nuxt-link to="/dataentryform">
         <button>Data Entry</button>
       </nuxt-link>
       <nuxt-link to="">

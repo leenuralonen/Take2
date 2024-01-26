@@ -1,8 +1,8 @@
 <script setup>
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import dataentryforms from '@/pages/dataentryforms.vue'
-import signuppage from './signuppage.vue'
+import dataentryform from '@/pages/dataentryform.vue'
+import signuppage from '@/pages/signuppage.vue'
 import homepage from './homepage.vue'
 
 Vue.use(VueRouter);
@@ -22,7 +22,7 @@ const routes = [
   {
     path: '/data-entry',
     name: 'Data Entry',
-    component: dataentryforms,
+    component: dataentryform,
   }
   
 ];
