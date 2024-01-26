@@ -1,25 +1,28 @@
 <template>
   <div id="app">
-    <AppHeader />
-    <dataentryform />
-    <AppFooter />
-    <contact />
+    <AppHeader/>
+    <homepage/>
+    <AppFooter/>
+    
   </div>
 </template>
 
 <script>
-import AppHeader from './components/AppHeader.vue';
-import AppFooter from './components/AppFooter.vue';
+
 import dataentryform from './pages/dataentryform.vue';
 import contact from './pages/contact.vue'
+import homepage from './pages/homepage.vue';
+import AppHeader from "./components/AppHeader.vue";
+import AppFooter from './components/AppFooter.vue';
 
 export default {
   components: {
     AppHeader,
-    dataentryform,
+    homepage,
     AppFooter,
-    contact
-  },
+    dataentryform,
+    contact,
+},
 };
 </script>
 
