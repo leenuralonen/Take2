@@ -29,7 +29,12 @@ export default {
 </script>
 
 <style scoped>
-/* Add your styling here */
+h1 {
+  text-align: center;
+  color: firebrick;
+  font: arial;
+  margin: 20px;
+}
 .contact {
   display: flex;
   justify-content: space-between;

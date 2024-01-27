@@ -18,8 +18,8 @@
       <nuxt-link to="/dataentryform" class="dataentryform">
         <button>Data Entry</button>
       </nuxt-link>
-      <nuxt-link to="/logout" class="logout">
-        <button>Log out</button>
+      <nuxt-link to="/loginpage" class="loginpage">
+        <button>Login or Register</button>
       </nuxt-link>
     </nav> 
 

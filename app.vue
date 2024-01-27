@@ -12,21 +12,17 @@
 
 import dataentryform from './pages/dataentryform.vue';
 import contact from './pages/contact.vue'
-import homepage from './pages/homepage.vue';
-import AppHeader from "./components/AppHeader.vue";
-import AppFooter from './components/AppFooter.vue';
 import about from '@/pages/about.vue';
-import index from '@/pages/index.vue';
+import loginpage from '@/pages/loginpage.vue';
+import signuppage from './pages/signuppage.vue';
 
 export default {
   components: {
-    AppHeader,
-    homepage,
-    AppFooter,
     dataentryform,
     contact,
     about,
-    index,
+    loginpage,
+    signuppage
 },
 };
 </script>

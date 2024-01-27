@@ -41,10 +41,10 @@
   }
   
   form {
-    background-color: #030202;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(219, 73, 73, 0.1);
     width: 300px;
   }
   
