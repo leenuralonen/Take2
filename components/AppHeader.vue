@@ -1,34 +1,34 @@
 <template>
   <header class="site-header">
     <div class="logo">
-      <img src="" alt="" />
+      <!-- <img src="/path/to/your/logo.png" alt="Logo" /> -->
       <span>Group Project</span>
     </div>
 
     <nav>
-      
-      <nuxt-link to="/homepage">
+      <nuxt-link to="/homepage" class="HomePage">
         <button>Homepage</button>
       </nuxt-link>
-      <nuxt-link to="about">
+      <nuxt-link to="/about" class="about">
         <button>About</button>
       </nuxt-link>
-      <nuxt-link to="contact">
+      <nuxt-link to="/contact" class="contact">
         <button>Contact</button>
       </nuxt-link>
-      <nuxt-link to="dataentryform">
+      <nuxt-link to="/dataentryform" class="dataentryform">
         <button>Data Entry</button>
       </nuxt-link>
-      <nuxt-link to="dataentryform">
+      <nuxt-link to="/logout" class="logout">
         <button>Log out</button>
       </nuxt-link>
     </nav> 
 
     <button>
-    <div class="user-profile">
-      <!-- Placeholder for user profile information or login/logout buttons -->
-      <span>User Profile</span>
-    </div> </button>
+      <div class="user-profile">
+        <!-- Placeholder for user profile information or login/logout buttons -->
+        <span>User Profile</span>
+      </div>
+    </button>
   </header>
 </template>
 
@@ -68,6 +68,4 @@ nav nuxt-link {
   text-decoration: none;
   margin-right: 15px;
 }
-
-
 </style>

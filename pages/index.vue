@@ -1,16 +1,20 @@
 <script setup>
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import app from '~/app.vue';
+import dataentryform from '@/pages/dataentryform.vue';
+import signuppage from '@/pages/signuppage.vue';
+import homepage from '@/pages/homepage.vue';
+import contact from '@/pages/contact.vue';
 
 Vue.use(VueRouter);
 
 const routes = [
 
   {
+    
     path: '/',
     name: 'homepage',
-    component: app,
+    component: homepage,
   },
   {
     path: '/sign-up',

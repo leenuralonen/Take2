@@ -1,9 +1,8 @@
 <template>
   <div id="app">
     <AppHeader/>
-    <homepage/>
+    <NuxtPage/>
     <AppFooter/>
-    <about/>
     
     
   </div>
