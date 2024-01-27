@@ -3,7 +3,8 @@
     <AppHeader/>
     <homepage/>
     <AppFooter/>
-  
+    <about/>
+    
     
   </div>
 </template>
