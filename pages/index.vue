@@ -1,7 +1,7 @@
 <template>test</template>
 
 <script setup>
-
+/*
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import dataentryform from '@/pages/dataentryform.vue';
@@ -53,4 +53,5 @@ const router1 = new VueRouter({
   routes,
 });
 
+*/
 </script> 
