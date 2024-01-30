@@ -5,7 +5,7 @@
     <div class="team-member">
      <!-- <img src="team-member1.jpg" alt="Team Member 1" /> -->
       <div class="member-details">
-        <h2>John Micahel Malbas</h2>
+        <h2>John Michael Malbas</h2>
         <p>Hello there! I'm a seasoned professional with a passion for technology, hailing from the beautiful Philippines. With a diverse skill set, I proudly wear the hats of a Senior Web Developer and a Senior Database Administrator.</p>
         <p>In the dynamic realm of web development, I thrive on bringing digital ideas to life. My expertise lies in crafting robust, scalable, and user-friendly web applications that not only meet but exceed client expectations. From front-end design to back-end functionality, I am dedicated to delivering seamless online experiences.</p>
         <p>As a Senior Database Administrator, I specialize in managing and optimizing data ecosystems. My skills encompass designing efficient database structures, ensuring data integrity, and implementing performance tuning strategies. I'm well-versed in a variety of database management systems, ensuring that data is not just stored, but is easily accessible and secure.</p>
