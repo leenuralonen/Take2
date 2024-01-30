@@ -23,10 +23,13 @@
           />
         </div>
         <button type="submit">Login</button>
+
         <button type="forgot">Forgot Password</button>
+        
         <nuxt-link to="/signuppage" class="Signup">
         <button>Create an Account</button>
       </nuxt-link>
+      
       </form>
     </div>
   </template>
