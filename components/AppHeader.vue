@@ -23,12 +23,14 @@
       </nuxt-link>
     </nav> 
 
-    <button>
-      <div class="user-profile">
+      <div>
+    <nuxt-link to="/userprofile">
+      <button class="user-profile">
         <!-- Placeholder for user profile information or login/logout buttons -->
         <span>User Profile</span>
-      </div>
-    </button>
+      </button>
+    </nuxt-link>
+  </div>
   </header>
 </template>
 

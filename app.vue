@@ -15,6 +15,7 @@ import contact from './pages/contact.vue'
 import about from '@/pages/about.vue';
 import loginpage from '@/pages/loginpage.vue';
 import signuppage from './pages/signuppage.vue';
+import userprofile from './pages/userprofile.vue';
 
 export default {
   components: {
@@ -22,7 +23,8 @@ export default {
     contact,
     about,
     loginpage,
-    signuppage
+    signuppage,
+    userprofile,
 },
 };
 </script>
