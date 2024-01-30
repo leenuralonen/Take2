@@ -10,7 +10,6 @@
         <p>In the dynamic realm of web development, I thrive on bringing digital ideas to life. My expertise lies in crafting robust, scalable, and user-friendly web applications that not only meet but exceed client expectations. From front-end design to back-end functionality, I am dedicated to delivering seamless online experiences.</p>
         <p>As a Senior Database Administrator, I specialize in managing and optimizing data ecosystems. My skills encompass designing efficient database structures, ensuring data integrity, and implementing performance tuning strategies. I'm well-versed in a variety of database management systems, ensuring that data is not just stored, but is easily accessible and secure.</p>
         <p>Having grown up in the Philippines, I bring a unique perspective to my work. The vibrant culture and strong sense of community have shaped my approach to collaboration and problem-solving. I understand the importance of diversity and adaptability, and I leverage these qualities to create solutions that resonate globally.</p>
-      <P>Outside the realm of technology, you'll find me exploring the rich landscapes of the Philippines, indulging in local cuisine, or immersing myself in the arts. I believe in continuous learning, staying updated with the latest industry trends, and sharing knowledge within the tech community.</P>
     </div>
     </div>
 
@@ -18,7 +17,7 @@
      <!---- <img src="team-member2.jpg" alt="Team Member 2" /> -->
       <div class="member-details">
         <h2>Leenur Alonen</h2>
-        <p><link rel="stylesheet" href="https://www.linkedin.com/in/leenur-alonen-3513a6291/"></p>
+        <p><h2><a href="https://www.linkedin.com/in/leenur-alonen-3513a6291/">Link to my LinkedIn</a></h2></p>
       </div>
     </div>
 
@@ -26,7 +25,7 @@
      <!---- <img src="team-member2.jpg" alt="Team Member 2" /> -->
       <div class="member-details">
         <h2>Koryom Lam</h2>
-        <p>git</p>
+        <p></p>
       </div>
     </div>
 
