@@ -25,7 +25,7 @@
      <!---- <img src="team-member2.jpg" alt="Team Member 2" /> -->
       <div class="member-details">
         <h2>Koryom Lam</h2>
-        <p></p>
+        <p>test</p>
       </div>
     </div>
 
