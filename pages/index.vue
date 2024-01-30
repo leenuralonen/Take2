@@ -1,57 +1,31 @@
-<template>test</template>
+<template>
+  <div>
+    <h2>Welcome to My Homepage!</h2>
+    <p>This is the home page content.</p>
+  </div>
+  <h3>
+    This class is irelevant to our DBA program we could've used a user friendly interface to create a web
+  </h3>
+</template>
 
-<script setup>
-/*
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import dataentryform from '@/pages/dataentryform.vue';
-import signuppage from '@/pages/signuppage.vue';
-import homepage from '@/pages/homepage.vue';
-import contact from '@/pages/contact.vue';
-import loginpage from './loginpage.vue';
+<script>
+export default {
+  name: "HomePage",
+};
+</script>
 
+<style scoped>
+h2 {
+  color: #3c91e6;
+  background-color: bisque;
+}
 
+p {
+  font-size: large;
+  color: black;
+}
 
-
-Vue.use(VueRouter);
-
-const routes = [
-
-  {
-    
-    path: '/',
-    name: 'homepage',
-    component: homepage,
-  },
-  {
-    path: '/sign-up',
-    name: 'Sign Up',
-    component: signuppage,
-  },
-  {
-    path: '/dataentryform',
-    name: 'Data Entry',
-    component: dataentryform,
-  },
-
-  {
-    path: '/contact',
-    name: 'Contact',
-    component: contact,
-  },
-
-  {
-    path: '/login',
-    name: 'loginpage',
-    component: loginpage,
-  }
-  
-  
-];
-
-const router1 = new VueRouter({
-  routes,
-});
-
-*/
-</script> 
+h3 {
+  color:darkblue;
+}
+</style>

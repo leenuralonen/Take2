@@ -2,10 +2,20 @@
     <div class="signup-container">
       <form @submit.prevent="handleSubmit">
         <h2>Sign Up</h2>
+
+        <label for="username">Username:</label>
+        <input v-model="username" type="username" id="username" name="username" required>
+
         <label for="email">Email:</label>
+        <input v-model="email" type="email" id="email" name="email" required>
+
+        <label for="email">Confirm Email:</label>
         <input v-model="email" type="email" id="email" name="email" required>
   
         <label for="password">Password:</label>
+        <input v-model="password" type="password" id="password" name="password" required>
+
+        <label for="password">Confirm Password:</label>
         <input v-model="password" type="password" id="password" name="password" required>
   
         <button type="submit">Sign Up</button>
